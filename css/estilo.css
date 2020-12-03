@@ -54,8 +54,15 @@ nav a:hover {
 
 }
 
-/*Iconos redes sociales*/
+/*Cuerpo*/
 
+.cuerpo{
+	width: 100%;
+	height: 1000px;
+	background-color: pink;
+}
+
+/*Iconos redes sociales*/
 
 header .social{
 	width: 20%;
@@ -83,25 +90,47 @@ header .social .iconos a{
 	margin-bottom: 5px;
 }
 
-/*Footer*/
-
-
-section {
-  width: 100%;
-  display: inline-block;
-  background: #333;
-  height: 50vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
+/* Estilos para botones */
+.btn{
+	text-decoration: none;
+	background-color: #092445;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 14px;
 }
+
+/* Tamaño botones */
+.btn-peque{
+	font-size: 12px;
+}
+.btn-grande{
+	padding: 5px 12px;
+	font-size: 20px;
+	border-radius: 4px;
+	align-content: left;
+}
+
+/* colores para botones */
+
+.btn-primario{
+	background-color: #33383b;
+	color: white;
+}
+
+.btn-primario:hover{
+	background-color: black;
+	color: white;
+}
+
+/*Footer*/
 
 .footer-sfmo{
 	background: #666;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
+	height: 350px;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
@@ -151,7 +180,6 @@ section {
 }
 
 .footer-sfmo .footer-centro i{
-	background-color:  #33383b;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -259,3 +287,80 @@ section {
 	margin: 0;
 }
 
+/*Estilos de los botones*/
+
+/* Texto */
+.texto-centrado{
+	text-align: center;
+}
+
+/*Grid*/
+.contenedor{
+	width: 95%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+.fila{
+}
+.columna-12{
+	float: left;
+	width: 95%;
+	margin-bottom: 5px;
+}
+.columna-11 {
+	float: left;
+	width: 91.66666666666666%;
+	margin-bottom: 5px;
+}
+.columna-10 {
+	float: left;
+	width: 83.33333333333333%;
+	margin-bottom: 5px;
+}
+.columna-9 {
+	float: left;
+	width: 75%;
+	margin-bottom: 5px;
+}
+.columna-8 {
+	float: left;
+	width: 66.66666666666666%;
+	margin-bottom: 5px;
+}
+.columna-7 {
+	float: left;
+	width: 58.3333333333333%;
+	margin-bottom: 5px;
+}
+.columna-6 {
+	float: left;
+	width: 50%;
+	margin-bottom: 5px;
+}
+.columna-5 {
+	float: left;
+	width: 41.66666666666667%;
+	margin-bottom: 5px;
+}
+.columna-4 {
+	float: left;
+	width: 33.33333333333333%;
+	margin-bottom: 5px;
+}
+.columna-3 {
+	float: left;
+	width: 25%;
+	margin-bottom: 5px;
+}
+.columna-2 {
+	float: left;
+	width: 16,66666666666666667%;
+	margin-bottom: 5px;
+}
+.columna-1 {
+	float: left;
+	width: 8,333333333333333%;
+	margin-bottom: 5px;
+}
